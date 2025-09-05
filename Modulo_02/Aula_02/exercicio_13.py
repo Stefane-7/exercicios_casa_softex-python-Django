@@ -1,0 +1,2 @@
+"""13. Verificando um Subconjunto: Crie dois conjuntos: pratos_veganos = {'salada', 'arroz',
+'feijão'} e cardapio = {'pizza', 'salada', 'arroz', 'feijão'}. Verifique se pratos_veganos é um subconjunto de cardapio."""

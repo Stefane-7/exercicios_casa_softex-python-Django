@@ -21,8 +21,7 @@ cores = {
 }
 
 while True:
-  try:
-    entrada = input("Digite o código correspondente a cor que deseja(ou 'sair' para parar): ").lower()
+    entrada = input("Digite o código correspondente a cor que deseja(ou 'sair' para parar): ").upper()
     if entrada == 'sair':
       print("Encerrando...")
       break
@@ -34,6 +33,5 @@ while True:
         break
     if not encontrado:
         print(f"Nenhuma correspondencia encontrada para o código digitado: '{entrada}' ")
-  except ValueError:
-    print("Por favor digite dados válidos.")
+  
       

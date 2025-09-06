@@ -6,7 +6,7 @@ produtos = {'celular': 150.00, 'relogio': 90.00, 'tela': 70.00}
 remover = input("Digite o item a ser removido: ").lower()
 if remover in produtos: 
   produto_removido = produtos.pop(remover)
-  print(f"Produto removido do estoque: {remover} - R$: {produto_removido:.2f}")
+  print(f"Produto removido do estoque: {remover} - R$: {produto_removido:.2f}".replace(".",","))
   print(f"\nEstoque atualizado: {produtos}")
 else:
   print("Produto não encontrado no estoque.")

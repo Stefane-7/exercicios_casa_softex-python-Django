@@ -6,11 +6,21 @@ imprima o dicionário."""
 digitar um nome de produto e uma quantidade para adicionar. Atualize o estoque e
 imprima o dicionário."""
 
-estoque = {'cobertores': 10, 'lençois': 15, 'toalhas': 7}
-print(estoque)
-produto = input("Digite o produto a ser adicionado no estoque: ")
-quantidade = int(input("Digite a quantidade: "))
+estoque = {'cobertores': 10, 'lençóis': 15, 'toalhas': 7}
+print(f"Estoque inicial: {estoque}")
 
-estoque[produto] = quantidade
+while True:
+    produto = input("Digite o produto a ser adicionado (ou 'parar' para encerrar): ").lower()
+    if produto == "parar":
+        break
 
-print(f"Estoque após atualização: {estoque}")
+    quantidade = int(input("Digite a quantidade: "))
+
+    if produto in estoque:
+        estoque[produto] += quantidade
+    else:
+        estoque[produto] = quantidade
+
+    print(f"Estoque atualizado: {estoque}")
+
+print("\nEstoque final:", estoque)

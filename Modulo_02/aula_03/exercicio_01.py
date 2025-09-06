@@ -2,4 +2,6 @@
 
 frutas = {'banana': 15.99, 'maçã': 11.00, 'pera': 16.80}
 print(frutas)
+
+#Acessando apenas o valor de um profuto pela chave.
 print(frutas['pera'])

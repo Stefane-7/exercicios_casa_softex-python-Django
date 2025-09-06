@@ -1,0 +1,1 @@
+"""3. Crie um dicionário vazio. Adicione 3 pares de chave-valor. Imprima o dicionário."""

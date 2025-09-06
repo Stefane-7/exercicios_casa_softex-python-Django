@@ -9,5 +9,5 @@ if remover in produtos:
   print(f"Produto removido do estoque: {remover} - R$: {produto_removido:.2f}")
   print(f"\nEstoque atualizado: {produtos}")
 else:
-  print("Produto nã encontrado no estoque.")
+  print("Produto não encontrado no estoque.")
   print(f"\nEstoque atual: {produtos}")

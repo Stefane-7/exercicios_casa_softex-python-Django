@@ -22,5 +22,4 @@ while True:
         estoque[produto] = quantidade
 
     print(f"Estoque atualizado: {estoque}")
-
 print("\nEstoque final:", estoque)

@@ -1,0 +1,1 @@
+"""14. Dada uma lista de palavras, crie um dicionário que conte a frequência de cada palavra."""

@@ -2,7 +2,7 @@
 permitir que o usuário procure o código de uma cor repetidamente. O loop deve terminar
 quando o usuário digitar "sair"."""
 
-cores_hex = {
+cores = {
     "preto": "#000000",
     "branco": "#FFFFFF",
     "vermelho": "#FF0000",
@@ -26,10 +26,13 @@ while True:
     if entrada == 'sair':
       print("Encerrando...")
       break
-    for cor, codigo in entrada.items():
-      if codigo in entrada:
+    encontrado = False
+    for cor, codigo in cores.items():
+      if entrada == codigo:
         print(f"A cor correspondente ao codigo digitado é: {cor}")
-      else:
+        encontrado = True
+        break
+    if not encontrado:
         print(f"Nenhuma correspondencia encontrada para o código digitado: '{entrada}' ")
   except ValueError:
     print("Por favor digite dados válidos.")

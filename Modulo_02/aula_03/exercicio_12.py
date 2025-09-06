@@ -1,0 +1,1 @@
+"""12. Crie um dicionário onde a chave é o nome de um time e o valor é uma lista com os nomes de 3 jogadores. Imprima o nome do segundo jogador do segundo time."""

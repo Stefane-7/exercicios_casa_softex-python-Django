@@ -9,4 +9,11 @@ mapa = {
     (5, 1): "Hospital"
 }
 
-
+entrada = input("Digite uma coordenada: ")
+for coordenada, local in mapa.items():
+  if entrada == coordenada:
+    print(f"O local correspondente é : {local}")
+    break
+  else:
+    print(f"Não foi encontrada nenhuma correspondecia para: '{entrada}'")
+    break

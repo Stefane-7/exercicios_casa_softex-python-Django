@@ -6,3 +6,4 @@ times = {
     "Corinthians": ["Róger Guedes", "Fábio Santos", "Cássio"]
 }
 
+print(times["Palmeiras"][1])

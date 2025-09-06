@@ -1,0 +1,1 @@
+"""2. A partir do dicionário do exercício 1, acesse e imprima apenas o preço da segunda fruta."""

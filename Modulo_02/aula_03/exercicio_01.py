@@ -1,0 +1,1 @@
+"""1. Crie um dicionário com 3 nomes de frutas e seus preços. Imprima o dicionário completo."""

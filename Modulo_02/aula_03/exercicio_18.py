@@ -9,4 +9,6 @@ dicionario2 = {"b": 20, "d": 4}
 uniao = dicionario1.copy()  
 uniao.update(dicionario2)   
 
-print(uniao)
+print(f"Dicionário 1: {dicionario1}")
+print(f"Dicionário 2: {dicionario2}")
+print(f"dicionário 3: {uniao}")

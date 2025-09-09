@@ -1,2 +1,1 @@
-"""5. Área de um Retângulo: Crie uma função que receba a base e a altura de um retângulo e
-retorne sua área."""
+"""6. Cálculo de Média: Crie uma função que receba três notas e retorne a média delas."""

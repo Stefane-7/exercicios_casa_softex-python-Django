@@ -12,3 +12,4 @@ def entrada_numerica() -> int:
             
 num = entrada_numerica()
 print(f"Você digitou o número: {num}")
+#.......

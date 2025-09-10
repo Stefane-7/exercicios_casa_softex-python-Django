@@ -5,7 +5,8 @@ usuário e a senha existem em um dicionário pré-definido. """
 usuarios = {
     "joao": "1234",
     "maria": "abcd",
-    "pedro": "senha123"
+    "pedro": "senha123",
+    "stefane": "pythonelegal"
 }
 
 def autenticar(usuario: str, senha: str) -> bool:

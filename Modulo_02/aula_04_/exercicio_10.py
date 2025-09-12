@@ -9,5 +9,5 @@ def contador_de_vogais(texto: str) -> int:
             contador += 1
     return contador
 
-
-print(contador_de_vogais("o rato roeu a roupa do rei de roma "))  
+frase = input("Digite uma frase: ")
+print(contador_de_vogais(frase))  

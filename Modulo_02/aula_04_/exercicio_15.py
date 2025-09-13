@@ -13,7 +13,7 @@ def entrada_dados() -> list[float]:
             numeros = [float(num) for num in numeros_str.split()]
             return numeros
         except ValueError:
-            print("Erro: Certifique-se de digitar apenas números separados por espaço.")
+            print("Erro: Certifique-se de digitar apenas números separados por espaço ou virgula.")
 
 def executar_soma():
     """Função que une entrada de dados e soma dos números."""

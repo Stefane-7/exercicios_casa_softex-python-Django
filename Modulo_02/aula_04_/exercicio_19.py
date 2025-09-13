@@ -7,7 +7,7 @@ def ordenar_dicionarios(lista: list[dict]) -> list[dict]:
     for i in range(n):
         for j in range(0, n - i - 1):
             if lista[j]["idade"] > lista[j + 1]["idade"]:
-                # Troca os elementos de lugar
+              
                 lista[j], lista[j + 1] = lista[j + 1], lista[j]
     return lista
 

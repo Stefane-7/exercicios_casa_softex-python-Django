@@ -12,7 +12,7 @@ def ordenar_dicionarios(lista: list[dict]) -> list[dict]:
     return lista
 
 
-# Lista de dicionários (desordenada de propósito)
+
 pessoas = [
     {"nome": "Beatriz", "idade": 30},
     {"nome": "Ana", "idade": 25},

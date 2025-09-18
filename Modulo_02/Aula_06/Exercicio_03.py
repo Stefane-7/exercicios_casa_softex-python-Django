@@ -10,7 +10,7 @@ class Pessoa:
     self.nome = nome
     self.idade = idade
   
-  def apresentar():
+  def apresentar(self):
     print(f"Olá, eu me chamo {self.nome} e tenho {self.idade} anos!")
 
 

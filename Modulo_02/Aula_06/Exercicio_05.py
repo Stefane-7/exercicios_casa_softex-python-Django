@@ -5,10 +5,19 @@ deposite um valor e imprima o novo saldo."""
 
 class ContaBancaria:
   def __init__(self, titular: str, saldo: float) -> None:
-    self.titular = nome 
+    self.titular = titular 
     self.saldo = saldo
     
-  def depositar(self, saldo):
-    deposito = 0
-    if deposito > 0:
-      self.saldo += deposito
+  def depositar(self, valor: float) -> None:
+    if valor > 0:
+      self.saldo += valor
+    
+    else:
+      print("Valor inválido para depósito")
+      
+
+usuario_1 = ContaBancaria("Luiz", 250.55)
+
+usuario_1.depositar(150)
+
+print(f"Novo saldo de {usuario_1.titular}: R$ {usuario_1.saldo:.2f}")

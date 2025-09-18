@@ -29,5 +29,5 @@ class ContaBancaria:
 usuario_1 = ContaBancaria("Luiz", 250.55)
 
 usuario_1.depositar(150)
-usuario_1.sacar(500)
+usuario_1.sacar(400.55)
 print(f"Novo saldo de {usuario_1.titular}: R$ {usuario_1.saldo:.2f}")

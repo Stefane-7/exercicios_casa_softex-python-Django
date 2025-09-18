@@ -4,3 +4,20 @@ Crie uma classe Retangulo que é inicializada com base e altura. Crie dois méto
 2. calcular_perimetro(): deve retornar o cálculo 2 * (base + altura).
 Crie um retângulo, chame os dois métodos e imprima os resultados que eles retornam."""
 
+class Retangulo:
+  def __init__(self, base: float, altura: float) -> None:
+    self.base = base
+    self.altura = altura
+  
+  def calcular_area(self, base, altura):
+    return base * altura
+
+  def calcular_perimetro(self, base, altura):
+    return 2 * (base + altura)
+    
+retangulo = Retangulo(20.5, 30.0)
+
+print(retangulo.calcular_area())
+print(retangulo.calcular_perimetro())
+    
+    

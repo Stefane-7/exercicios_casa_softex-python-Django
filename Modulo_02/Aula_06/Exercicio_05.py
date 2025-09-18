@@ -1,3 +1,4 @@
-"""Nível Intermediário: Objetos que Mudam e Calculam
-Aqui, os objetos começarão a ter métodos que alteram suas próprias características
-(atributos) e que realizam cálculos."""
+"""Exercício 5: Conta Bancária
+Crie uma classe ContaBancaria. Toda conta deve começar com um titular e um saldo inicial.
+Crie um método depositar(valor) que some um valor ao saldo da conta. Crie um objeto,
+deposite um valor e imprima o novo saldo."""

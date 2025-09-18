@@ -9,11 +9,11 @@ class Retangulo:
     self.base = base
     self.altura = altura
   
-  def calcular_area(self, base, altura):
-    return base * altura
+  def calcular_area(self):
+    return self.base * self.altura
 
-  def calcular_perimetro(self, base, altura):
-    return 2 * (base + altura)
+  def calcular_perimetro(self):
+    return 2 * (self.base + self.altura)
     
 retangulo = Retangulo(20.5, 30.0)
 

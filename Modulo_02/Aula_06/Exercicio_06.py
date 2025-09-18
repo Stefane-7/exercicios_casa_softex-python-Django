@@ -5,3 +5,22 @@ verificar se há saldo suficiente na conta.
 ● Se não houver, ele deve imprimir "Saldo insuficiente." e não alterar o saldo.
 Teste os dois cenários: um saque bem-sucedido e uma tentativa de sacar mais do que
 tem."""
+
+class ContaBancaria:
+  def __init__(self, titular: str, saldo: float) -> None:
+    self.titular = titular 
+    self.saldo = saldo
+    
+  def depositar(self, valor: float) -> None:
+    if valor > 0:
+      self.saldo += valor
+    
+    else:
+      print("Valor inválido para depósito")
+      
+
+usuario_1 = ContaBancaria("Luiz", 250.55)
+
+usuario_1.depositar(150)
+
+print(f"Novo saldo de {usuario_1.titular}: R$ {usuario_1.saldo:.2f}")

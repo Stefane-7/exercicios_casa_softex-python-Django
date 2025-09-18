@@ -7,3 +7,8 @@ class ContaBancaria:
   def __init__(self, titular: str, saldo: float) -> None:
     self.titular = nome 
     self.saldo = saldo
+    
+  def depositar(self, saldo):
+    deposito = 0
+    if deposito > 0:
+      self.saldo += deposito

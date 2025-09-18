@@ -17,10 +17,17 @@ class ContaBancaria:
     
     else:
       print("Valor inválido para depósito")
+  
+  def sacar(self, valor: float) -> None:
+    if valor <= self.saldo:
+      self.saldo -= valor
+      print(f"Saque realizado com sucesso!")
+    else:
+      print("Saldo insuficiente.")
       
 
 usuario_1 = ContaBancaria("Luiz", 250.55)
 
 usuario_1.depositar(150)
-
+usuario_1.sacar(500)
 print(f"Novo saldo de {usuario_1.titular}: R$ {usuario_1.saldo:.2f}")

@@ -6,3 +6,10 @@ Cachorro) e itere sobre ela para chamar o método fazer_som()."""
 class Animal:
   def __init__(self, nome)
   self.nome = nome
+  
+  def fazer_som(self):
+    pass
+  
+class Gato(Animal):
+  def __init__(self, nome):
+  super.__init__(nome)

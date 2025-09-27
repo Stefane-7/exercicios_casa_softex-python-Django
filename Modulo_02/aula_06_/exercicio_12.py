@@ -15,7 +15,7 @@ class Filme:
         self.ano = ano
 
     def __str__(self):
-        # "Filme: 'De Volta para o Futuro' (1985) - Diretor: Robert Zemeckis".
+
         return f"Filme: '{self.titulo}' ({self.ano}) - Diretor: {self.diretor}"
 
 

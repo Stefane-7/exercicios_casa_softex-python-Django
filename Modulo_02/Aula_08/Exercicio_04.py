@@ -40,3 +40,24 @@ class Estoque:
   def listar_produtos(self):
     for produto in self.estoque.values():
       print(f"{produto.nome} - R${produto.preco} - Quantidade: {produto.quantidade}")
+
+tv = Eletronico("TV", 1500, 10)
+print(tv)
+notebook = Eletronico("Notebook", 4500.00, 3)
+celular = Eletronico("Celular", 1800.00, 10)
+
+camisa = Roupa("Camisa", 80.00, 20)
+calca = Roupa("Calça Jeans", 120.00, 15)
+tenis = Roupa("Tênis", 250.00, 8)
+
+estoque = Estoque()
+
+
+estoque.adicionar_produto(tv)
+estoque.adicionar_produto(notebook)
+estoque.adicionar_produto(celular)
+estoque.adicionar_produto(camisa)
+estoque.adicionar_produto(calca)
+estoque.adicionar_produto(tenis)
+
+estoque.listar_produtos()

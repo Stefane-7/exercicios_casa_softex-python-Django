@@ -26,7 +26,7 @@ class Biblioteca:
             for livro in self.acervo:
                 print(f"- {livro.titulo}, de {livro.autor}")
 
-# --- Teste ---
+
 livro1 = Livro("Dom Casmurro", "Machado de Assis")
 livro2 = Livro("O Hobbit", "J.R.R. Tolkien")
 livro3 = Livro("1984", "George Orwell")

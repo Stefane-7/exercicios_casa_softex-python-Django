@@ -5,6 +5,7 @@ Crie duas classes: Motor e Carro.
 guardá-lo como um de seus atributos (ex: self.motor = Motor(100)).
 Crie um método no Carro chamado exibir_potencia que imprime a potência do seu motor."""
 
+
 class Carro:
 
     def __init__(self, modelo: str):

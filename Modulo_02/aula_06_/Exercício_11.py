@@ -22,7 +22,7 @@ class Biblioteca:
         if not self.acervo:
             print("A biblioteca está vazia.")
         else:
-            print("📚 Livros na biblioteca:")
+            print(" Livros na biblioteca:")
             for livro in self.acervo:
                 print(f"- {livro.titulo}, de {livro.autor}")
 

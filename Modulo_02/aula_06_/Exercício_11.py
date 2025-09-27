@@ -6,3 +6,13 @@ Crie duas classes: Livro e Biblioteca.
 ○ adicionar_livro(livro): recebe um objeto Livro e o adiciona à lista acervo.
 ○ listar_livros(): percorre a lista acervo e imprime o título e o autor de cada livro.
 Crie uma biblioteca, crie alguns objetos Livro e adicione-os à biblioteca. Depois, liste os livros."""
+
+class Livro:
+  def __init__(self, titulo, autor):
+    self.titulo = titulo
+    self.autor = autor
+    
+class Biblioteca:
+  def __init__(self, acervo):
+    self.acervo = []
+  
